@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +16,31 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="book" translatesAutoresizingMaskIntoConstraints="NO" id="FxK-Aj-W7f">
+                                <rect key="frame" x="180" y="241" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="TMi-rV-nzC"/>
+                                    <constraint firstAttribute="height" constant="128" id="uXi-tw-qDd"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bukumuka" translatesAutoresizingMaskIntoConstraints="NO" id="Mfv-97-aKd">
+                                <rect key="frame" x="180" y="372" width="240" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="OJ3-ai-cC3"/>
+                                    <constraint firstAttribute="height" constant="59" id="PoH-mq-w3R"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FxK-Aj-W7f" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="EaX-jt-Te4"/>
+                            <constraint firstItem="Mfv-97-aKd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KId-Fh-hov"/>
+                            <constraint firstItem="Mfv-97-aKd" firstAttribute="top" secondItem="FxK-Aj-W7f" secondAttribute="bottom" constant="3" id="Okk-xl-8O2"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Mfv-97-aKd" secondAttribute="bottom" constant="169" id="t4L-Ag-wYT"/>
+                            <constraint firstItem="FxK-Aj-W7f" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="221" id="wI6-9x-Isz"/>
+                            <constraint firstItem="Mfv-97-aKd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="yAi-QH-snv"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +48,8 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Bukumuka" width="457" height="92"/>
+        <image name="book" width="694" height="755"/>
+    </resources>
 </document>

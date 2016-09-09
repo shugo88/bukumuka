@@ -1,0 +1,6 @@
+framework module Pods_Bukumuka {
+  umbrella header "Pods-Bukumuka-umbrella.h"
+
+  export *
+  module * { export * }
+}

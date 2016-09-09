@@ -7,21 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1E29A35CA42C4595167B853 /* Pods_Bukumuka.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8033DD086566B6F906560F9 /* Pods_Bukumuka.framework */; };
 		CE03206F1D7D6ACD008F36CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03206E1D7D6ACD008F36CA /* AppDelegate.swift */; };
 		CE0320711D7D6ACD008F36CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0320701D7D6ACD008F36CA /* ViewController.swift */; };
-		CE0320741D7D6ACD008F36CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0320721D7D6ACD008F36CA /* Main.storyboard */; };
 		CE0320761D7D6ACD008F36CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0320751D7D6ACD008F36CA /* Assets.xcassets */; };
 		CE0320791D7D6ACD008F36CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0320771D7D6ACD008F36CA /* LaunchScreen.storyboard */; };
+		CE0320881D7D6B1A008F36CA /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE0320841D7D6B1A008F36CA /* NotoSans-Bold.ttf */; };
+		CE0320891D7D6B1A008F36CA /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE0320851D7D6B1A008F36CA /* NotoSans-BoldItalic.ttf */; };
+		CE03208A1D7D6B1A008F36CA /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE0320861D7D6B1A008F36CA /* NotoSans-Italic.ttf */; };
+		CE03208B1D7D6B1A008F36CA /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE0320871D7D6B1A008F36CA /* NotoSans-Regular.ttf */; };
+		CE03208D1D7D70DE008F36CA /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE03208C1D7D70DE008F36CA /* MaterialView.swift */; };
+		CE0320921D7D7156008F36CA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0320911D7D7156008F36CA /* Constants.swift */; };
+		CE0320941D7D742B008F36CA /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0320931D7D742B008F36CA /* MaterialButton.swift */; };
+		CE0320961D7D77E8008F36CA /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0320951D7D77E8008F36CA /* MaterialTextField.swift */; };
+		CE03209B1D7D7D77008F36CA /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0320981D7D7D77008F36CA /* Bolts.framework */; };
+		CE03209C1D7D7D77008F36CA /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0320991D7D7D77008F36CA /* FBSDKCoreKit.framework */; };
+		CE03209D1D7D7D77008F36CA /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE03209A1D7D7D77008F36CA /* FBSDKLoginKit.framework */; };
+		CE1B89071D7ECFD00021F138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE1B89061D7ECFD00021F138 /* Main.storyboard */; };
+		CE1B89091D7EE4AA0021F138 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B89081D7EE4AA0021F138 /* Post.swift */; };
+		CEBA817B1D7DAD9A005FDCD5 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBA817A1D7DAD9A005FDCD5 /* FBSDKShareKit.framework */; };
+		CEBA817D1D7DC9FB005FDCD5 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA817C1D7DC9FB005FDCD5 /* FeedVC.swift */; };
+		CEBA81811D7DCADD005FDCD5 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA81801D7DCADD005FDCD5 /* PostCell.swift */; };
+		CEBA81831D7E9866005FDCD5 /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBA81821D7E9866005FDCD5 /* DataServices.swift */; };
+		CEDC5C781D81808600F2144A /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC5C771D81808600F2144A /* ProfileVC.swift */; };
+		CEE217191D7DAA7900A1F763 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEE217181D7DAA7900A1F763 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15D67EB62EAD54FB7CEA776B /* Pods-Bukumuka.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bukumuka.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bukumuka/Pods-Bukumuka.release.xcconfig"; sourceTree = "<group>"; };
+		28F7702DA384979E5A360B35 /* Pods-Bukumuka.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bukumuka.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bukumuka/Pods-Bukumuka.debug.xcconfig"; sourceTree = "<group>"; };
 		CE03206B1D7D6ACD008F36CA /* Bukumuka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bukumuka.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE03206E1D7D6ACD008F36CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE0320701D7D6ACD008F36CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CE0320731D7D6ACD008F36CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE0320751D7D6ACD008F36CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0320781D7D6ACD008F36CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE03207A1D7D6ACD008F36CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0320841D7D6B1A008F36CA /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		CE0320851D7D6B1A008F36CA /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CE0320861D7D6B1A008F36CA /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		CE0320871D7D6B1A008F36CA /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		CE03208C1D7D70DE008F36CA /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		CE0320911D7D7156008F36CA /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE0320931D7D742B008F36CA /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		CE0320951D7D77E8008F36CA /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		CE0320981D7D7D77008F36CA /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CE0320991D7D7D77008F36CA /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		CE03209A1D7D7D77008F36CA /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		CE1B89061D7ECFD00021F138 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CE1B89081D7EE4AA0021F138 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		CEBA817A1D7DAD9A005FDCD5 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		CEBA817C1D7DC9FB005FDCD5 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		CEBA81801D7DCADD005FDCD5 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		CEBA81821D7E9866005FDCD5 /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		CEBA81841D7EB9FB005FDCD5 /* Bukumuka.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Bukumuka.entitlements; sourceTree = "<group>"; };
+		CEDC5C771D81808600F2144A /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		CEE217181D7DAA7900A1F763 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F8033DD086566B6F906560F9 /* Pods_Bukumuka.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bukumuka.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +70,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE03209B1D7D7D77008F36CA /* Bolts.framework in Frameworks */,
+				CE03209C1D7D7D77008F36CA /* FBSDKCoreKit.framework in Frameworks */,
+				CEBA817B1D7DAD9A005FDCD5 /* FBSDKShareKit.framework in Frameworks */,
+				CE03209D1D7D7D77008F36CA /* FBSDKLoginKit.framework in Frameworks */,
+				B1E29A35CA42C4595167B853 /* Pods_Bukumuka.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		713A79537CD85D9B98F23395 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28F7702DA384979E5A360B35 /* Pods-Bukumuka.debug.xcconfig */,
+				15D67EB62EAD54FB7CEA776B /* Pods-Bukumuka.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3B40E1ED903C9A0A1A96673 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8033DD086566B6F906560F9 /* Pods_Bukumuka.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE0320621D7D6ACD008F36CA = {
 			isa = PBXGroup;
 			children = (
 				CE03206D1D7D6ACD008F36CA /* Bukumuka */,
 				CE03206C1D7D6ACD008F36CA /* Products */,
+				713A79537CD85D9B98F23395 /* Pods */,
+				A3B40E1ED903C9A0A1A96673 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +119,89 @@
 		CE03206D1D7D6ACD008F36CA /* Bukumuka */ = {
 			isa = PBXGroup;
 			children = (
+				CEBA81841D7EB9FB005FDCD5 /* Bukumuka.entitlements */,
+				CE6487731D7D89E000D250E0 /* Services */,
+				CE0320971D7D7D6B008F36CA /* Frameworks */,
+				CE03208E1D7D7121008F36CA /* Util */,
+				CE0320831D7D6AF7008F36CA /* Resources */,
+				CE0320821D7D6AF3008F36CA /* Model */,
+				CE0320811D7D6AEE008F36CA /* View */,
+				CE0320801D7D6AE7008F36CA /* Controller */,
 				CE03206E1D7D6ACD008F36CA /* AppDelegate.swift */,
-				CE0320701D7D6ACD008F36CA /* ViewController.swift */,
-				CE0320721D7D6ACD008F36CA /* Main.storyboard */,
 				CE0320751D7D6ACD008F36CA /* Assets.xcassets */,
-				CE0320771D7D6ACD008F36CA /* LaunchScreen.storyboard */,
 				CE03207A1D7D6ACD008F36CA /* Info.plist */,
+				CEE217181D7DAA7900A1F763 /* GoogleService-Info.plist */,
 			);
 			path = Bukumuka;
+			sourceTree = "<group>";
+		};
+		CE0320801D7D6AE7008F36CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE0320701D7D6ACD008F36CA /* ViewController.swift */,
+				CEBA817C1D7DC9FB005FDCD5 /* FeedVC.swift */,
+				CEDC5C771D81808600F2144A /* ProfileVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		CE0320811D7D6AEE008F36CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B89061D7ECFD00021F138 /* Main.storyboard */,
+				CE0320771D7D6ACD008F36CA /* LaunchScreen.storyboard */,
+				CE03208C1D7D70DE008F36CA /* MaterialView.swift */,
+				CE0320931D7D742B008F36CA /* MaterialButton.swift */,
+				CE0320951D7D77E8008F36CA /* MaterialTextField.swift */,
+				CEBA81801D7DCADD005FDCD5 /* PostCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		CE0320821D7D6AF3008F36CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE1B89081D7EE4AA0021F138 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		CE0320831D7D6AF7008F36CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CE0320841D7D6B1A008F36CA /* NotoSans-Bold.ttf */,
+				CE0320851D7D6B1A008F36CA /* NotoSans-BoldItalic.ttf */,
+				CE0320861D7D6B1A008F36CA /* NotoSans-Italic.ttf */,
+				CE0320871D7D6B1A008F36CA /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CE03208E1D7D7121008F36CA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				CE0320911D7D7156008F36CA /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		CE0320971D7D7D6B008F36CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA817A1D7DAD9A005FDCD5 /* FBSDKShareKit.framework */,
+				CE0320981D7D7D77008F36CA /* Bolts.framework */,
+				CE0320991D7D7D77008F36CA /* FBSDKCoreKit.framework */,
+				CE03209A1D7D7D77008F36CA /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE6487731D7D89E000D250E0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CEBA81821D7E9866005FDCD5 /* DataServices.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE03207D1D7D6ACD008F36CA /* Build configuration list for PBXNativeTarget "Bukumuka" */;
 			buildPhases = (
+				9100CFFC5F010197139E9739 /* [CP] Check Pods Manifest.lock */,
 				CE0320671D7D6ACD008F36CA /* Sources */,
 				CE0320681D7D6ACD008F36CA /* Frameworks */,
 				CE0320691D7D6ACD008F36CA /* Resources */,
+				6816BBE28252CDCDBEB356D8 /* [CP] Embed Pods Frameworks */,
+				949C07A43742E6650495D0AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +239,12 @@
 				TargetAttributes = {
 					CE03206A1D7D6ACD008F36CA = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = DR5BL35E6F;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,35 +271,89 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0320881D7D6B1A008F36CA /* NotoSans-Bold.ttf in Resources */,
+				CEE217191D7DAA7900A1F763 /* GoogleService-Info.plist in Resources */,
 				CE0320791D7D6ACD008F36CA /* LaunchScreen.storyboard in Resources */,
+				CE1B89071D7ECFD00021F138 /* Main.storyboard in Resources */,
+				CE0320891D7D6B1A008F36CA /* NotoSans-BoldItalic.ttf in Resources */,
+				CE03208A1D7D6B1A008F36CA /* NotoSans-Italic.ttf in Resources */,
 				CE0320761D7D6ACD008F36CA /* Assets.xcassets in Resources */,
-				CE0320741D7D6ACD008F36CA /* Main.storyboard in Resources */,
+				CE03208B1D7D6B1A008F36CA /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6816BBE28252CDCDBEB356D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bukumuka/Pods-Bukumuka-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9100CFFC5F010197139E9739 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		949C07A43742E6650495D0AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bukumuka/Pods-Bukumuka-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE0320671D7D6ACD008F36CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0320961D7D77E8008F36CA /* MaterialTextField.swift in Sources */,
+				CEBA817D1D7DC9FB005FDCD5 /* FeedVC.swift in Sources */,
+				CE03208D1D7D70DE008F36CA /* MaterialView.swift in Sources */,
 				CE0320711D7D6ACD008F36CA /* ViewController.swift in Sources */,
 				CE03206F1D7D6ACD008F36CA /* AppDelegate.swift in Sources */,
+				CE0320921D7D7156008F36CA /* Constants.swift in Sources */,
+				CEBA81831D7E9866005FDCD5 /* DataServices.swift in Sources */,
+				CE0320941D7D742B008F36CA /* MaterialButton.swift in Sources */,
+				CEBA81811D7DCADD005FDCD5 /* PostCell.swift in Sources */,
+				CEDC5C781D81808600F2144A /* ProfileVC.swift in Sources */,
+				CE1B89091D7EE4AA0021F138 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CE0320721D7D6ACD008F36CA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE0320731D7D6ACD008F36CA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CE0320771D7D6ACD008F36CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -249,8 +452,15 @@
 		};
 		CE03207E1D7D6ACD008F36CA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28F7702DA384979E5A360B35 /* Pods-Bukumuka.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bukumuka/Bukumuka.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Bukumuka",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = Bukumuka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Loong.Bukumuka;
@@ -260,8 +470,15 @@
 		};
 		CE03207F1D7D6ACD008F36CA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D67EB62EAD54FB7CEA776B /* Pods-Bukumuka.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bukumuka/Bukumuka.entitlements;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Bukumuka",
+					"~/Documents/FacebookSDK",
+				);
 				INFOPLIST_FILE = Bukumuka/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Loong.Bukumuka;
@@ -288,6 +505,7 @@
 				CE03207F1D7D6ACD008F36CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
